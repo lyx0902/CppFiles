@@ -3,4 +3,4 @@ project(test1)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(csp2023_03_1.cpp csp2023_03_1.cpp)
+add_executable(P1443.cpp P1443.cpp)

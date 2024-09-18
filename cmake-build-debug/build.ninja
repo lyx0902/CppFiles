@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/CLionProjects/test1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target csp2023_03_1.cpp
+# Object build statements for EXECUTABLE target P1443.cpp
 
 
 #############################################
-# Order-only phony target for csp2023_03_1.cpp
+# Order-only phony target for P1443.cpp
 
-build cmake_object_order_depends_target_csp2023_03_1.cpp: phony || CMakeFiles/csp2023_03_1.cpp.dir
+build cmake_object_order_depends_target_P1443.cpp: phony || CMakeFiles/P1443.cpp.dir
 
-build CMakeFiles/csp2023_03_1.cpp.dir/csp2023_03_1.cpp.obj: CXX_COMPILER__csp2023_03_1.2ecpp_unscanned_Debug D$:/CLionProjects/test1/csp2023_03_1.cpp || cmake_object_order_depends_target_csp2023_03_1.cpp
-  DEP_FILE = CMakeFiles\csp2023_03_1.cpp.dir\csp2023_03_1.cpp.obj.d
+build CMakeFiles/P1443.cpp.dir/P1443.cpp.obj: CXX_COMPILER__P1443.2ecpp_unscanned_Debug D$:/CLionProjects/test1/P1443.cpp || cmake_object_order_depends_target_P1443.cpp
+  DEP_FILE = CMakeFiles\P1443.cpp.dir\P1443.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\csp2023_03_1.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\csp2023_03_1.cpp.dir
+  OBJECT_DIR = CMakeFiles\P1443.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1443.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target csp2023_03_1.cpp
+# Link build statements for EXECUTABLE target P1443.cpp
 
 
 #############################################
-# Link the executable csp2023_03_1.cpp.exe
+# Link the executable P1443.cpp.exe
 
-build csp2023_03_1.cpp.exe: CXX_EXECUTABLE_LINKER__csp2023_03_1.2ecpp_Debug CMakeFiles/csp2023_03_1.cpp.dir/csp2023_03_1.cpp.obj
+build P1443.cpp.exe: CXX_EXECUTABLE_LINKER__P1443.2ecpp_Debug CMakeFiles/P1443.cpp.dir/P1443.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\csp2023_03_1.cpp.dir
+  OBJECT_DIR = CMakeFiles\P1443.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = csp2023_03_1.cpp.exe
-  TARGET_IMPLIB = libcsp2023_03_1.cpp.dll.a
-  TARGET_PDB = csp2023_03_1.cpp.exe.dbg
+  TARGET_FILE = P1443.cpp.exe
+  TARGET_IMPLIB = libP1443.cpp.dll.a
+  TARGET_PDB = P1443.cpp.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build csp2023_03_1.cpp: phony csp2023_03_1.cpp.exe
+build P1443.cpp: phony P1443.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build csp2023_03_1.cpp: phony csp2023_03_1.cpp.exe
 #############################################
 # Folder: D:/CLionProjects/test1/cmake-build-debug
 
-build all: phony csp2023_03_1.cpp.exe
+build all: phony P1443.cpp.exe
 
 # =============================================================================
 # Built-in targets
