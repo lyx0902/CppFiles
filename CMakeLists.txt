@@ -3,4 +3,4 @@ project(test1)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(P1443BFS.cpp P1443BFS.cpp)
+add_executable(P1135.cpp P1135.cpp)
