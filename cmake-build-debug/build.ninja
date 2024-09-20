@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/CLionProjects/test1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target B3633.cpp
+# Object build statements for EXECUTABLE target csp2022_12_2.cpp
 
 
 #############################################
-# Order-only phony target for B3633.cpp
+# Order-only phony target for csp2022_12_2.cpp
 
-build cmake_object_order_depends_target_B3633.cpp: phony || CMakeFiles/B3633.cpp.dir
+build cmake_object_order_depends_target_csp2022_12_2.cpp: phony || CMakeFiles/csp2022_12_2.cpp.dir
 
-build CMakeFiles/B3633.cpp.dir/B3633.cpp.obj: CXX_COMPILER__B3633.2ecpp_unscanned_Debug D$:/CLionProjects/test1/B3633.cpp || cmake_object_order_depends_target_B3633.cpp
-  DEP_FILE = CMakeFiles\B3633.cpp.dir\B3633.cpp.obj.d
+build CMakeFiles/csp2022_12_2.cpp.dir/csp2022_12_2.cpp.obj: CXX_COMPILER__csp2022_12_2.2ecpp_unscanned_Debug D$:/CLionProjects/test1/csp2022_12_2.cpp || cmake_object_order_depends_target_csp2022_12_2.cpp
+  DEP_FILE = CMakeFiles\csp2022_12_2.cpp.dir\csp2022_12_2.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\B3633.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\B3633.cpp.dir
+  OBJECT_DIR = CMakeFiles\csp2022_12_2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\csp2022_12_2.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target B3633.cpp
+# Link build statements for EXECUTABLE target csp2022_12_2.cpp
 
 
 #############################################
-# Link the executable B3633.cpp.exe
+# Link the executable csp2022_12_2.cpp.exe
 
-build B3633.cpp.exe: CXX_EXECUTABLE_LINKER__B3633.2ecpp_Debug CMakeFiles/B3633.cpp.dir/B3633.cpp.obj
+build csp2022_12_2.cpp.exe: CXX_EXECUTABLE_LINKER__csp2022_12_2.2ecpp_Debug CMakeFiles/csp2022_12_2.cpp.dir/csp2022_12_2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\B3633.cpp.dir
+  OBJECT_DIR = CMakeFiles\csp2022_12_2.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = B3633.cpp.exe
-  TARGET_IMPLIB = libB3633.cpp.dll.a
-  TARGET_PDB = B3633.cpp.exe.dbg
+  TARGET_FILE = csp2022_12_2.cpp.exe
+  TARGET_IMPLIB = libcsp2022_12_2.cpp.dll.a
+  TARGET_PDB = csp2022_12_2.cpp.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build B3633.cpp: phony B3633.cpp.exe
+build csp2022_12_2.cpp: phony csp2022_12_2.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build B3633.cpp: phony B3633.cpp.exe
 #############################################
 # Folder: D:/CLionProjects/test1/cmake-build-debug
 
-build all: phony B3633.cpp.exe
+build all: phony csp2022_12_2.cpp.exe
 
 # =============================================================================
 # Built-in targets
