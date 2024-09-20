@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/CLionProjects/test1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target P1135.cpp
+# Object build statements for EXECUTABLE target CSP33_02.cpp
 
 
 #############################################
-# Order-only phony target for P1135.cpp
+# Order-only phony target for CSP33_02.cpp
 
-build cmake_object_order_depends_target_P1135.cpp: phony || CMakeFiles/P1135.cpp.dir
+build cmake_object_order_depends_target_CSP33_02.cpp: phony || CMakeFiles/CSP33_02.cpp.dir
 
-build CMakeFiles/P1135.cpp.dir/P1135.cpp.obj: CXX_COMPILER__P1135.2ecpp_unscanned_Debug D$:/CLionProjects/test1/P1135.cpp || cmake_object_order_depends_target_P1135.cpp
-  DEP_FILE = CMakeFiles\P1135.cpp.dir\P1135.cpp.obj.d
+build CMakeFiles/CSP33_02.cpp.dir/CSP33_02.cpp.obj: CXX_COMPILER__CSP33_02.2ecpp_unscanned_Debug D$:/CLionProjects/test1/CSP33_02.cpp || cmake_object_order_depends_target_CSP33_02.cpp
+  DEP_FILE = CMakeFiles\CSP33_02.cpp.dir\CSP33_02.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\P1135.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\P1135.cpp.dir
+  OBJECT_DIR = CMakeFiles\CSP33_02.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\CSP33_02.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target P1135.cpp
+# Link build statements for EXECUTABLE target CSP33_02.cpp
 
 
 #############################################
-# Link the executable P1135.cpp.exe
+# Link the executable CSP33_02.cpp.exe
 
-build P1135.cpp.exe: CXX_EXECUTABLE_LINKER__P1135.2ecpp_Debug CMakeFiles/P1135.cpp.dir/P1135.cpp.obj
+build CSP33_02.cpp.exe: CXX_EXECUTABLE_LINKER__CSP33_02.2ecpp_Debug CMakeFiles/CSP33_02.cpp.dir/CSP33_02.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\P1135.cpp.dir
+  OBJECT_DIR = CMakeFiles\CSP33_02.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = P1135.cpp.exe
-  TARGET_IMPLIB = libP1135.cpp.dll.a
-  TARGET_PDB = P1135.cpp.exe.dbg
+  TARGET_FILE = CSP33_02.cpp.exe
+  TARGET_IMPLIB = libCSP33_02.cpp.dll.a
+  TARGET_PDB = CSP33_02.cpp.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build P1135.cpp: phony P1135.cpp.exe
+build CSP33_02.cpp: phony CSP33_02.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build P1135.cpp: phony P1135.cpp.exe
 #############################################
 # Folder: D:/CLionProjects/test1/cmake-build-debug
 
-build all: phony P1135.cpp.exe
+build all: phony CSP33_02.cpp.exe
 
 # =============================================================================
 # Built-in targets
