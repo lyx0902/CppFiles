@@ -3,4 +3,4 @@ project(test1)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(CSP33_02.cpp CSP33_02.cpp)
+add_executable(B3633.cpp B3633.cpp)

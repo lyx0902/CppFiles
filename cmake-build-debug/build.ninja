@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/CLionProjects/test1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target CSP33_02.cpp
+# Object build statements for EXECUTABLE target B3633.cpp
 
 
 #############################################
-# Order-only phony target for CSP33_02.cpp
+# Order-only phony target for B3633.cpp
 
-build cmake_object_order_depends_target_CSP33_02.cpp: phony || CMakeFiles/CSP33_02.cpp.dir
+build cmake_object_order_depends_target_B3633.cpp: phony || CMakeFiles/B3633.cpp.dir
 
-build CMakeFiles/CSP33_02.cpp.dir/CSP33_02.cpp.obj: CXX_COMPILER__CSP33_02.2ecpp_unscanned_Debug D$:/CLionProjects/test1/CSP33_02.cpp || cmake_object_order_depends_target_CSP33_02.cpp
-  DEP_FILE = CMakeFiles\CSP33_02.cpp.dir\CSP33_02.cpp.obj.d
+build CMakeFiles/B3633.cpp.dir/B3633.cpp.obj: CXX_COMPILER__B3633.2ecpp_unscanned_Debug D$:/CLionProjects/test1/B3633.cpp || cmake_object_order_depends_target_B3633.cpp
+  DEP_FILE = CMakeFiles\B3633.cpp.dir\B3633.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CSP33_02.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\CSP33_02.cpp.dir
+  OBJECT_DIR = CMakeFiles\B3633.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\B3633.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CSP33_02.cpp
+# Link build statements for EXECUTABLE target B3633.cpp
 
 
 #############################################
-# Link the executable CSP33_02.cpp.exe
+# Link the executable B3633.cpp.exe
 
-build CSP33_02.cpp.exe: CXX_EXECUTABLE_LINKER__CSP33_02.2ecpp_Debug CMakeFiles/CSP33_02.cpp.dir/CSP33_02.cpp.obj
+build B3633.cpp.exe: CXX_EXECUTABLE_LINKER__B3633.2ecpp_Debug CMakeFiles/B3633.cpp.dir/B3633.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CSP33_02.cpp.dir
+  OBJECT_DIR = CMakeFiles\B3633.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = CSP33_02.cpp.exe
-  TARGET_IMPLIB = libCSP33_02.cpp.dll.a
-  TARGET_PDB = CSP33_02.cpp.exe.dbg
+  TARGET_FILE = B3633.cpp.exe
+  TARGET_IMPLIB = libB3633.cpp.dll.a
+  TARGET_PDB = B3633.cpp.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build CSP33_02.cpp: phony CSP33_02.cpp.exe
+build B3633.cpp: phony B3633.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build CSP33_02.cpp: phony CSP33_02.cpp.exe
 #############################################
 # Folder: D:/CLionProjects/test1/cmake-build-debug
 
-build all: phony CSP33_02.cpp.exe
+build all: phony B3633.cpp.exe
 
 # =============================================================================
 # Built-in targets
