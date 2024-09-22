@@ -3,4 +3,4 @@ project(test1)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(csp2022_12_2.cpp csp2022_12_2.cpp)
+add_executable(P4305.cpp P4305.cpp)
