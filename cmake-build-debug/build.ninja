@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/CLionProjects/test1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target P4305.cpp
+# Object build statements for EXECUTABLE target csp2020_09_1.cpp
 
 
 #############################################
-# Order-only phony target for P4305.cpp
+# Order-only phony target for csp2020_09_1.cpp
 
-build cmake_object_order_depends_target_P4305.cpp: phony || CMakeFiles/P4305.cpp.dir
+build cmake_object_order_depends_target_csp2020_09_1.cpp: phony || CMakeFiles/csp2020_09_1.cpp.dir
 
-build CMakeFiles/P4305.cpp.dir/P4305.cpp.obj: CXX_COMPILER__P4305.2ecpp_unscanned_Debug D$:/CLionProjects/test1/P4305.cpp || cmake_object_order_depends_target_P4305.cpp
-  DEP_FILE = CMakeFiles\P4305.cpp.dir\P4305.cpp.obj.d
+build CMakeFiles/csp2020_09_1.cpp.dir/csp2020_09_1.cpp.obj: CXX_COMPILER__csp2020_09_1.2ecpp_unscanned_Debug D$:/CLionProjects/test1/csp2020_09_1.cpp || cmake_object_order_depends_target_csp2020_09_1.cpp
+  DEP_FILE = CMakeFiles\csp2020_09_1.cpp.dir\csp2020_09_1.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\P4305.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\P4305.cpp.dir
+  OBJECT_DIR = CMakeFiles\csp2020_09_1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\csp2020_09_1.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target P4305.cpp
+# Link build statements for EXECUTABLE target csp2020_09_1.cpp
 
 
 #############################################
-# Link the executable P4305.cpp.exe
+# Link the executable csp2020_09_1.cpp.exe
 
-build P4305.cpp.exe: CXX_EXECUTABLE_LINKER__P4305.2ecpp_Debug CMakeFiles/P4305.cpp.dir/P4305.cpp.obj
+build csp2020_09_1.cpp.exe: CXX_EXECUTABLE_LINKER__csp2020_09_1.2ecpp_Debug CMakeFiles/csp2020_09_1.cpp.dir/csp2020_09_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\P4305.cpp.dir
+  OBJECT_DIR = CMakeFiles\csp2020_09_1.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = P4305.cpp.exe
-  TARGET_IMPLIB = libP4305.cpp.dll.a
-  TARGET_PDB = P4305.cpp.exe.dbg
+  TARGET_FILE = csp2020_09_1.cpp.exe
+  TARGET_IMPLIB = libcsp2020_09_1.cpp.dll.a
+  TARGET_PDB = csp2020_09_1.cpp.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build P4305.cpp: phony P4305.cpp.exe
+build csp2020_09_1.cpp: phony csp2020_09_1.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build P4305.cpp: phony P4305.cpp.exe
 #############################################
 # Folder: D:/CLionProjects/test1/cmake-build-debug
 
-build all: phony P4305.cpp.exe
+build all: phony csp2020_09_1.cpp.exe
 
 # =============================================================================
 # Built-in targets
