@@ -1,3 +1,3 @@
-D:/CLionProjects/test1/cmake-build-debug/CMakeFiles/csp2020_09_1.cpp.dir
-D:/CLionProjects/test1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/CLionProjects/test1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/CLionProjects/2024.09Code/cmake-build-debug/CMakeFiles/test1.dir
+D:/CLionProjects/2024.09Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CLionProjects/2024.09Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
